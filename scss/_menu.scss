@@ -42,8 +42,7 @@
 .menu {
   position: fixed;
   top: 0;
-  width: 100%;
-  opacity: 0.9;
+  width:100%;
   visibility: hidden;
 
   &.show {
@@ -93,6 +92,7 @@
       background: url('../img/portrait.jpg');
       border-radius: 50%;
       border: solid 3px $secondary-color;
+      margin-top: 10px;
     }
   }
 
