@@ -165,13 +165,5 @@ main {
   color: #333;
 }
 
-#main-footer {
-  text-align: center;
-  padding: 1rem;
-  background: darken($primary-color, 10);
-  color: set-text-color($primary-color);
-  height: 60px;
-  width: 100%;
-}
 
 @import 'mobile';
