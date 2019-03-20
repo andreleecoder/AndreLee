@@ -93,24 +93,6 @@ main {
     grid-area: bio;
     font-size: 1.5rem;
   }
-
-  .job-1 {
-    grid-area: job1;
-  }
-
-  .job-2 {
-    grid-area: job2;
-  }
-
-  .job-3 {
-    grid-area: job3;
-  }
-
-  .job {
-    background: lighten($primary-color, 5);
-    padding: 0.5rem;
-    border-bottom: $secondary-color 5px solid;
-  }
 }
 
 // Work/Projects
@@ -133,9 +115,11 @@ main {
 
 // Contact Page
 .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  width: 10%;
+  height: 5%;
+  display: grid;
+  grid-gap: 0,7rem;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   margin-top: 1rem;
 
@@ -187,6 +171,7 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
+  width: 100%;
 }
 
 @import 'mobile';
